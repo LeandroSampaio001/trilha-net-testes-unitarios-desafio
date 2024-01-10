@@ -35,7 +35,7 @@ public class ValidacoesStringTests
 
         // Assert
         //TODO: Corrigir o Assert.True com base no retorno da chamada ao método
-        Assert.True(true);
+        Assert.True(retorno);
     }
 
     [Fact]
@@ -50,7 +50,7 @@ public class ValidacoesStringTests
 
         // Assert
         //TODO: Corrigir o Assert.False com base no retorno da chamada ao método
-        Assert.False(false);
+        Assert.False(resultado);
     }
 
     //TODO: Corrigir a anotação [Fact]
